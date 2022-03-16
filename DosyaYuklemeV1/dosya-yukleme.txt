@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <title>Dosya Yükleme V1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+	  <div class="container">
+        <header class="flex-wrap justify-content-center py-3 mb-4">
+          <a href="#" class="align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" style="float:left;">
+            <span class="fs-4" >ANASAYFA</span>
+          </a>
+          <ul class="nav nav-pills" style="float:right;">
+            <li class="nav-item"><a href="#" class="nav-link active">Geri Dön</a></li>
+            <!--<li class="nav-item"><a href="#" class="nav-link">Geri Dön</a></li>-->
+          </ul>
+        </header>
+      </div>
+
+      <main class="container">
+        <div class="bg-light p-5 ">
+                <div class="  ">
+                <h6>Aşağıdaki formu kullanarak işleminizi yapabilirsiniz.</h6>
+                <hr>
+                <label for="formFile" class="form-label" >Alt Bayii Seçiniz</label>
+                <select class="form-select" aria-label="Default select example"> 
+                    <option selected>Seçiniz</option>
+                    <option value="1">Bayii 1</option>
+                    <option value="2">Bayii 2</option>
+                    <option value="3">Bayii 3</option>
+                </select>
+                <!---------->
+                <label for="formFile" class="form-label">Döküman Tipini Seçiniz</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seçiniz</option>
+                    <option value="1">Döküman Tip 1</option>
+                    <option value="2">Döküman Tip 2</option>
+                    <option value="3">Döküman Tip 3</option>
+                </select>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Dosya Seçiniz</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <butto class="btn btn-primary">Yükle</butto>
+            </div>
+        </div>
+      </main>
+
+</body>
+</html>
